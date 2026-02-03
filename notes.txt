@@ -1,0 +1,7 @@
+Understanding P=F*P*F'+Q and S=H*P*H'+R:
+P is the covariance of the x estimate. Consequently, it is based on a x*x' multiplication, so when a vector is transformed once, this entity must be transformed twice.
+
+K=P*H'*S^-1:
+P contains state uncertainty
+H' maps measurement directions back into state directions
+S⁻¹ weights that information by how reliable the measurement is
