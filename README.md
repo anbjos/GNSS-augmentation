@@ -5,6 +5,14 @@ Using low-cost GNSS receivers to augment measurement data with accurate time and
 
 ### *Accurate Sky Referencing in a DIY Radio Telescope*
 
+<p align="center">
+
+![setup](https://github.com/anbjos/GNSS-augmentation/blob/main/figures/setup.JPG)
+
+*Example GPS receiver*
+
+</p>
+
 ---
 
 ### Lecture overview
@@ -30,6 +38,15 @@ Next, we look at affordable, off-the-shelf GNSS receivers that are commonly used
 We then examine how receivers expose their data, using common text-based formats like NMEA as well as vendor-specific binary protocols. This section focuses on how time and position information appear in practice, not on protocol minutiae.
 
 Finally, we discuss how GNSS data can be used to augment measurements, with attention to error sources, timing alignment, and practical considerations when integrating GPS into real systems.
+
+<p align="center">
+
+![setup](https://github.com/anbjos/GNSS-augmentation/blob/main/figures/matrikkel.jpg)
+
+*Land*
+
+</p>
+
 
 ---
 
@@ -356,6 +373,17 @@ The UBX protocol exposes the internal timing and navigation state of the receive
 ### Increasing precission of syncsignal
 
 Quantization errors due to reclocking on ardu simple and DIY radio telescope.
+
+<p align="center">
+
+![setup](https://github.com/anbjos/GNSS-augmentation/blob/main/figures/filter.png)
+
+*filter*
+
+</p>
+
+
+
 
 ---
 
